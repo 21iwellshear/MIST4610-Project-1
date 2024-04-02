@@ -36,4 +36,11 @@ INSERT
       PICTURE
      - Justification: Helps allocate coaches based on demand for junior training sessions,          optimizing staffing.
      - Complexity: Simple WHERE
-6. 
+6. Description: Find the most purchased items in the pro shop by quantity ordered.
+      PICTURE
+   - Justification: Identifies best-selling items to manage stock levels effectively.
+   - Complexity: Complex (Join, GROUP BY, ORDER BY)
+7. Description: Identify Largest Spenders in the Pro Shop and Their Associated Clubs
+      PICTURE
+   - Justification: For club managers and marketing teams, understanding who the largest          spenders are and their club affiliations can inform a range of strategic decisions.
+   - Complexity: JOIN, GROUP BY, CASE, Subquery
