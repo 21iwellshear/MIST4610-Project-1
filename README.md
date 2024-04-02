@@ -55,4 +55,4 @@ INSERT
 10. Description: Calculate the total monthly payment received from all active members.
       PICTURE
    - Justification: Provides a quick overview of the club's primary income source, helping in financial planning.
-   - Complexity: Simple (Aggregate Function)
+   - Complexity: Simple (Aggregate Function).
