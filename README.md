@@ -5,7 +5,7 @@
 Ireland Wellshear @21iwellshear
 Jack Liskey @taralpatel
 Ryan Mai @angelmarsh
-Ashkon Mokhlesi  @rileydoggett
+Ashkon Mokhlesi  @AshkonMokhlesi
 Karandeep Singh @ripleykurtz
 # Problem Description
 The taks at hand is to model and build a relational database for the general workings of a tennis club. MORE.
