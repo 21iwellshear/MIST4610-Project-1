@@ -16,4 +16,11 @@ Explanation of data model:
 # Date Dictionary:
 INSERT
 # Queries
-INSERT
+1. Description: Determine the total number of coaching sessions conducted by each coach as a percentage of all sessions.
+   PICTURE
+   - Justification: Understanding the distribution of coaching sessions helps in workload            balancing and identifying coaching resource needs.
+   - Complexity: JOIN Operation, Aggregation Functions (COUNT), Subquery, GROUP BY Clause,           Arithmetic Operations (Percentage Calculation) 
+2. Description: List of upcoming tournaments located in China.
+     PICTURE
+     - Justification: Enables planning for hosting and promoting specific events for China.
+     - Complexity: Simple WHERE
