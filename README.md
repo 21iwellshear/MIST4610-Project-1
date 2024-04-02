@@ -24,3 +24,16 @@ INSERT
      PICTURE
      - Justification: Enables planning for hosting and promoting specific events for China.
      - Complexity: Simple WHERE
+3. Description: Find all tennis courts with lighting.
+      PICTURE
+     - Justification: To schedule evening or night games and training sessions.
+     - Complexity: Simple WHERE
+4. Description: List winners of tournaments, the prices they won, and the sponsor of the     tournament.
+      PICTURE
+     - Justification: Highlights successful players and their rewards, useful for                   promotional materials and sponsor relations.
+     - Complexity: Complex (Multiple Table Join, GROUP BY)
+5. DescriptionL Find all coaches who specialize in training kids age groups and their pay rates.
+      PICTURE
+     - Justification: Helps allocate coaches based on demand for junior training sessions,          optimizing staffing.
+     - Complexity: Simple WHERE
+6. 
