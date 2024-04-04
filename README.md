@@ -11,6 +11,18 @@ Karandeep Singh @ripleykurtz
 The taks at hand is to model and build a relational database for the general workings of a tennis club. MORE.
 # Data Model
 Explanation of data model: 
+Our data model is based on our prestigious and well-equipped private tennis club organization. Beginning with the club entity, each individual club within the organization is assigned its own unique club id. Each individual club has many workers as a part of its staff but each staff member can only work at one club during their employment exhibited through the one-to-many relationship to the staff entity.
+ 
+Each club also has numerous members who are connected through a one-to-many relationship from the club entity to the members entity. Every member is assigned a unique member id to identify them as well. You may notice through our queries that many members have home addresses in a different state that the location of the club and this is a testament to our prestige as an organization. We have many members who travel and temporarily relocate to become members and train at one of our clubs.
+ 
+Members of our clubs can take part in a number of tournaments made available to them through their association with us. Shown by the many-to-many relationship between the tournaments entity and the members entity, a tournament can have many of our members playing in them and a member can take part in as many tournaments as they like. Each tournament also has a sponsor through various companies who use our tournaments as a means of product and service exposure. Each sponsor is given their own sponsor id to track which tournaments they sponsor.
+ 
+To give our players confidence going into these tournaments we offer private coaching sessions to our members on the facilities of any of our clubs. This is a relationship our members value between them and their coaches, and is displayed as a many-to-many relationship between the two entities. Individual coaching sessions are logged and displayed as an associative entity between the member and coaches entities. For each session only one court can be reserved creating a one-to-one relationship with the coaching session entity and court entity.
+ 
+To ensure that there are always coaches available to our members at each club, each coach can only work at one club, and of course, each individual club employs many top notch coaches exhibited through a one-to-many relationship from club to coaches.
+ 
+Lastly, to provide the best service possible to our members each club has their own pro shop. At our pro shop members can purchase new equipment such as shoes, tennis balls, energy drinks, protein bars, and even a new racket (for sale not for rent). The relationship between these pro shop items and members is a many-to-many relationship as members can purchase many items and an item can be purchased by many members. Each purchase is recorded and logged as a transaction. The transactions entity is an associative entity between pro shop items and members.
+
 ![image](https://github.com/21iwellshear/MIST4610-Project-1/assets/150079987/a1778499-57f5-4f6d-a6bb-fcc5bb5faf5c)
 
 # Date Dictionary:
