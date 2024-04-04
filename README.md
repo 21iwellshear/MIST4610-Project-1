@@ -4,7 +4,7 @@
 # Team Members:
 1. Ireland Wellshear @21iwellshear
 2. Jack Liskey @jackliskey
-3. Ryan Mai @peaches422
+3. Ryan Mai @Peaches124
 4. Ashkon Mokhlesi  @AshkonMokhlesi
 5. Karandeep Singh @ripleykurtz
 # Problem Description
