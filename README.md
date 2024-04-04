@@ -2,13 +2,13 @@
 # Team name:
 21479 Group 6
 # Team Members:
-Ireland Wellshear @21iwellshear
-Jack Liskey @jackliskey
-Ryan Mai @angelmarsh
-Ashkon Mokhlesi  @AshkonMokhlesi
-Karandeep Singh @ripleykurtz
+1. Ireland Wellshear @21iwellshear
+2. Jack Liskey @jackliskey
+3. Ryan Mai @peaches422
+4. Ashkon Mokhlesi  @AshkonMokhlesi
+5. Karandeep Singh @ripleykurtz
 # Problem Description
-The taks at hand is to model and build a relational database for the general workings of a tennis club. MORE.
+The task at hand is to model and build a relational database for the general operations of a tennis club. The central entity in the model is the Club entity, representing each physical club location owned and operated by the organization. The tennis club operates in conjunction with various things, such as racket rentals, tournaments, coaching sessions, court reservations, and shopping at the Pro Shop, to cater to its members and guests. We aim to accurately model these relationships, generate sample data, and populate the entities and their attributes with this sample data. Additionally, we are interested in performing functional queries on this data to gain valuable insights into the club's operations and member engagement.
 # Data Model
 Explanation of data model: 
 Our data model is based on our prestigious and well-equipped private tennis club organization. Beginning with the club entity, each individual club within the organization is assigned its own unique club id. Each individual club has many workers as a part of its staff but each staff member can only work at one club during their employment exhibited through the one-to-many relationship to the staff entity.
