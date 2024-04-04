@@ -6,7 +6,7 @@
 2. Jack Liskey @Jackliskey
 3. Ryan Mai @Peaches124
 4. Ashkon Mokhlesi  @AshkonMokhlesi
-5. Karandeep Singh @karandeepsingh23
+5. Karandeep Singh @KarandeepSingh23
 # Problem Description
 The task at hand is to model and build a relational database for the general operations of a tennis club. The central entity in the model is the Club entity, representing each physical club location owned and operated by the organization. The tennis club operates in conjunction with various things, such as racket rentals, tournaments, coaching sessions, court reservations, and shopping at the Pro Shop, to cater to its members and guests. We aim to accurately model these relationships, generate sample data, and populate the entities and their attributes with this sample data. Additionally, we are interested in performing functional queries on this data to gain valuable insights into the club's operations and member engagement.
 # Data Model
