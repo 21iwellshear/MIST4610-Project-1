@@ -78,3 +78,8 @@ Lastly, to provide the best service possible to our members each club has their 
       ![image](https://github.com/21iwellshear/MIST4610-Project-1/assets/150079987/116a328e-a5a2-4209-8a25-18c6eaeff687)
    - Justification: Provides a quick overview of the club's primary income source, helping in financial planning.
    - Complexity: Simple (Aggregate Function).
+
+#Database Information:
+Name of the database: al_Group_21479_G6
+
+Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q1();
